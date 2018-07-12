@@ -3,10 +3,233 @@
 \docType{data}
 \name{gss}
 \alias{gss}
-\title{GSS dataset for R Companion to Essentials of Political Analysis}
-\format{A data frame with 1974 rows and 221 variables.}
+\title{GSS dataset for R Companion to Essentials of Political Analysis, Second Edition}
+\format{A data frame with 1974 rows and 221 variables.
+\describe{
+  \item{abany}{Abortion Permissible: Woman Wants For Any Reason}
+  \item{abdefect}{Abortion Permissible: Strong Chance of Serious Defect}
+  \item{abhlth}{Abortion Permissible: Woman's Health Seriously Endangered}
+  \item{abnomore}{Abortion Permissible: Woman Married--Wants No More Children}
+  \item{abortion}{Under How Many Conditions Abortion Permissible?}
+  \item{abortion_3}{Under How Many Conditions Abortion Permissible? 3 Categories}
+  \item{abpoor}{Abortion Permissible: Low Income--Can't Afford More Children}
+  \item{abrape}{Abortion Permissible: Pregnant As Result of Rape}
+  \item{absingle}{Abortion Permissible: Not Married}
+  \item{affrmact}{Favor Preference in Hiring Blacks}
+  \item{affrmact2}{Support Affirmative Action?}
+  \item{age}{Respondent's Age}
+  \item{age.f}{Respondent's Age (as ordered factor)}
+  \item{age2}{Respondent's Age: 2 Categories}
+  \item{age_3}{Age Group: 3 Categories}
+  \item{age_5}{Age Group: 5 Categories}
+  \item{attend}{How Often Respondent Attends Religious Services}
+  \item{attend2}{Attendance at Religious Services: Low or High}
+  \item{attend3}{Attendance at Religious Services: 3 Categories}
+  \item{attend7}{Attendance at Religious Services: 7 Categories}
+  \item{authoritarianism}{Authoritarianism Scale}
+  \item{bible}{Feelings About the Bible}
+  \item{black}{Is Respondent African American?}
+  \item{black_traits}{Black Stereotypes}
+  \item{born}{Was Respondent Born in This Country}
+  \item{cappun}{Favor or Oppose Death Penalty For Murder}
+  \item{childs}{Number of Children}
+  \item{closeblk}{How Close Do You Feel to Blacks?}
+  \item{closeblk2}{How Close to Blacks? 2 Categories}
+  \item{closewht}{How Close Feel to Whites}
+  \item{closewht2}{How Close Do You Feel to Whites? 2 Categories}
+  \item{cohort}{Year of Birth}
+  \item{colath}{College Teaching: Allow Anti-Religionist to Teach}
+  \item{colcom}{College Teaching: Should Communist Teacher Be Fired}
+  \item{colhomo}{College Teaching: Allow Homosexual to Teach}
+  \item{colmil}{College Teaching: Allow Militarist to Teach}
+  \item{colmslm}{College Teaching: Allow Anti-American Muslim Clergymen to Teach}
+  \item{colrac}{College Teaching: Allow Racist to Teach}
+  \item{con_govt}{Confidence in Government Institutions}
+  \item{conarmy}{Confidence in Military}
+  \item{conbus}{Confidence in Major Companies}
+  \item{conclerg}{Confidence in Organized Religion}
+  \item{coneduc}{Confidence in Education}
+  \item{confed}{Confidence in Exec Branch of Fed Government}
+  \item{confinan}{Confidence in Banks & Financial Institutions}
+  \item{conjudge}{Confidence in United States Supreme Court}
+  \item{conlabor}{Confidence in Organized Labor}
+  \item{conlegis}{Confidence in Congress}
+  \item{conmedic}{Confidence in Medicine}
+  \item{conpress}{Confidence in Press}
+  \item{consci}{Confidence in Scientific Community}
+  \item{contv}{Confidence in Television}
+  \item{courts}{Courts Dealing With Criminals}
+  \item{dateintv}{Date of Interview}
+  \item{degree}{Respondent's Highest Degree}
+  \item{dem}{Is Respondent a Democrat?}
+  \item{divlaw}{Divorce Laws}
+  \item{divlaw2}{Should divorce laws make it more difficult?}
+  \item{educ}{Highest Year of School}
+  \item{educ_2}{Education: 2 Categories}
+  \item{educ_4}{Education: 4 Categories}
+  \item{egalit_scale}{Egalitarianism Scale}
+  \item{egalit_scale3}{Egalitarianism: 3 Categories}
+  \item{egalit_scale4}{Egalitarianism: 4 Categories}
+  \item{eqwlth}{Should Government Reduce Income Differences?}
+  \item{ethnic}{Country of Family Origin}
+  \item{evangelical}{Evangelical Scale}
+  \item{fechld}{Female Roles: Mother Working Doesn't Hurt Children}
+  \item{feelevel}{Amount of Fees Paid (to Respondent for Interview)}
+  \item{feeused}{Fee Given to Get Case (for the Interview)}
+  \item{fefam}{Female Roles: Better For Man to Work, Woman Tend Home}
+  \item{femrole}{Female Role (Scale of Values)}
+  \item{femrole2}{Female Role: 2 Categories}
+  \item{fepresch}{Female Roles: Preschool Kids Suffer If Mother Works}
+  \item{fucitzn}{Is Respondent Planning/Applying For US Citizenship?}
+  \item{fund}{How Fundamentalist Is Respondent Currently?}
+  \item{fund2}{Is Respondent Fundamentalist?}
+  \item{getahead}{Opinion of How People Get Ahead}
+  \item{god_r}{Know God Exists?}
+  \item{grass}{Should Marijuana Be Made Legal?}
+  \item{grass.legal}{Should Marijuana Be Made Legal? (numeric)}
+  \item{gunlaw}{Favor or Oppose Gun Permits?}
+  \item{happy}{General Happiness}
+  \item{helpblk}{Should Government Aid Blacks?}
+  \item{helpnot}{Should Government Do More or Less?}
+  \item{helpoth}{To Help Others}
+  \item{helppoor}{Should Government Improve Standard of Living?}
+  \item{helpsick}{Should Government Help Pay For Medical Care?}
+  \item{hhtype1}{Household Type (Condensed)}
+  \item{hispanic}{Hispanic Specified}
+  \item{hispanic_2}{Is Respondent Hispanic?}
+  \item{homosex}{Homosexual Sex Relations}
+  \item{homosex2}{Homosexuality Always Wrong?}
+  \item{id}{Respondent Id Number}
+  \item{income06}{Total Family Income}
+  \item{int_info_scale}{Interest in Current Issues? (Additive index)}
+  \item{intage}{Interviewer: Age of Interviewer}
+  \item{intecon}{Interested in Economic Issues?}
+  \item{inteduc}{Interested in Local School Issues?}
+  \item{intenvir}{Interested in Environmental Issues?}
+  \item{intethn}{Interviewer: Race of Interviewer}
+  \item{intethn_2}{Interviewer: Interviewer's Race}
+  \item{intfarm}{Interested in Farm Issues?}
+  \item{inthisp}{Interviewer: Is Interviewer Spanish, Hispanic or Latino}
+  \item{intintl}{Interested in International Issues?}
+  \item{intmed}{Interested in Medical Discoveries?}
+  \item{intmil}{Interested in Military Policy?}
+  \item{intrace1}{Interviewer: Interviewer's Race1}
+  \item{intrace2}{Interviewer: Interviewer's Race2}
+  \item{intrace3}{Interviewer: Interviewer's Race3}
+  \item{intsci}{Interested in New Scientific Discoveries?}
+  \item{intsex}{Interviewer: Sex of Interviewer}
+  \item{intspace}{Interested in Space Exploration?}
+  \item{inttech}{Interested in Technologies?}
+  \item{intyrs}{Interviewer: Years of Service as an Interviewer at NORC}
+  \item{kids}{Does Respondent Have Kids?}
+  \item{libath}{Allow Anti-Religious Book in Library?}
+  \item{libcom}{Allow Communists Book in Library?}
+  \item{libhomo}{Allow Homosexuals Book in Library?}
+  \item{libmil}{Allow Militarists Book in Library?}
+  \item{libmslm}{Allow Anti-American Muslim Clergymen's Books in Library?}
+  \item{librac}{Allow Racists Book in Library?}
+  \item{lngthinv}{How Long Was Interview}
+  \item{marital}{Marital Status}
+  \item{militarist_tol}{Tolerance Toward Militarists}
+  \item{mobile16}{Geographic Mobility Since Age 16}
+  \item{mode}{Interview Done In-Person or Over the Phone}
+  \item{mslm_col}{Muslims: Teach in College?}
+  \item{mslm_lib}{Muslims: Book in Library?}
+  \item{mslm_spk}{Muslims: Preach?}
+  \item{mslm_spk.yes}{Muslims: Preach? (as numeric)}
+  \item{mslm_spk.high}{Muslims: Preach? (as numeric)}
+  \item{nataid}{Federal spending: Foreign Aid}
+  \item{natarms}{Federal spending: Military, Armaments, and Defense}
+  \item{natchld}{Federal spending: Assistance for Childcare}
+  \item{natcity}{Federal spending: Solving Problems of Big Cities}
+  \item{natcrime}{Federal spending: Halting Rising Crime Rate}
+  \item{natdrug}{Federal spending: Dealing with Drug Addiction}
+  \item{nateduc}{Federal spending: Improving Nations Education System}
+  \item{natenrgy}{Federal spending: Developing Alternative Energy Sources}
+  \item{natenvir}{Federal spending: Improving & Protecting Environment}
+  \item{natfare}{Federal spending: Welfare}
+  \item{natheal}{Federal spending: Improving & Protecting Nations Health}
+  \item{natmass}{Federal spending: Mass Transportation}
+  \item{natpark}{Federal spending: Parks and Recreation}
+  \item{natrace}{Federal spending: Improving the Conditions of Blacks}
+  \item{natroad}{Federal spending: Highways and Bridges}
+  \item{natsci}{Federal spending: Supporting Scientific Research}
+  \item{natsoc}{Federal spending: Social Security}
+  \item{natspac}{Federal spending: Space Exploration Program}
+  \item{news}{How Often Does Respondent Read Newspaper}
+  \item{obey}{To Obey}
+  \item{obey2}{Obedience Important in Children?}
+  \item{owngun}{Have Gun in Home}
+  \item{partyid}{Political Party Affiliation}
+  \item{partyid_3}{Party Id: 3 Categories}
+  \item{polviews}{Ideological Self-Placement}
+  \item{popular}{Important for Child: To Be Well Liked or Popular}
+  \item{pornlaw}{Feelings About Pornography Laws}
+  \item{pornlaw2}{Pornography opinion}
+  \item{postlife}{Belief in Life After Death}
+  \item{pray}{How Often Does Respondent Pray}
+  \item{premarsx}{Sex Before Marriage}
+  \item{pres08}{Vote Obama or Mccain}
+  \item{racdif1}{Differences Due to Discrimination}
+  \item{racdif2}{Differences Due to Inborn Disability}
+  \item{racdif3}{Differences Due to Lack of Education}
+  \item{racdif4}{Differences Due to Lack of Will}
+  \item{race}{Race of Respondent}
+  \item{race_2}{Race: Black / White}
+  \item{racial_liberal3}{Racial Liberalism}
+  \item{reborn_r}{Born Again?}
+  \item{region}{Region of Interview}
+  \item{relig}{Respondent's Religious Preference}
+  \item{relig2}{Respondent's Religious Preference, limited to Catholic and Protestant}
+  \item{reliten}{Strength of Affiliation}
+  \item{reliten2}{Strong Religious Affiliation}
+  \item{rincom06}{Respondent Income}
+  \item{rincom06_5}{Respondent Income: 5 Categories}
+  \item{savesoul_r}{Tried to Convince Others of Jesus?}
+  \item{science_quiz}{Number Correct on Science Quiz}
+  \item{science_quiz.f}{Number Correct on Science Quiz, stored as factor}
+  \item{sex}{Respondent's Sex}
+  \item{sibs}{Number of Brothers and Sisters}
+  \item{size}{Size of Place in 1000s}
+  \item{social_connect}{Social Connectedness}
+  \item{social_cons3}{Social Conservatism}
+  \item{social_trust}{Social Trust (Numeric Scale)}
+  \item{south}{Respondent from South?}
+  \item{spanking}{Favor Spanking to Discipline Child?}
+  \item{spanking2}{Approve of spanking}
+  \item{spend3}{Econ Liberalism}
+  \item{spkath}{Allow Speaker in Your Community: Anti-Religionist}
+  \item{spkcom}{Allow Speaker in Your Community: Communist}
+  \item{spkhomo}{Allow Speaker in Your Community: Homosexual}
+  \item{spkmil}{Allow Speaker in Your Community: Militarist}
+  \item{spkmslm}{Allow Speaker in Your Community: Muslim Clergymen Preaching Hatred}
+  \item{spkrac}{Allow Speaker in Your Community: Allow Racist to Speak}
+  \item{teensex}{Sex Before Marriage -- Teens 14-16}
+  \item{thnkself}{Important for Child: To Think For One's Self}
+  \item{tolerance}{Tolerance Scale}
+  \item{tolerance4}{Tolerance Scale (Binned)}
+  \item{tvhours}{Hours Per Day Watching TV}
+  \item{tvhours5}{Hours per day}
+  \item{union}{Does Respondent or Spouse Belong to Union}
+  \item{uscitzn}{Is Respondent US Citizen}
+  \item{vetyears}{Years in Armed Forces}
+  \item{vote08_coded}{Did Respondent Vote in 2008 Election}
+  \item{voted08}{Did Respondent Vote in 2008?}
+  \item{white_traits}{White Stereotypes}
+  \item{wordsum}{Number Words Correct in Vocabulary Test}
+  \item{workhard}{To Work Hard}
+  \item{wrkgvt}{Respondent Work for Government or Private Employee}
+  \item{wrkslf}{Respondent Self-Emp or Works For Somebody}
+  \item{wrkstat}{Labor Force Status}
+  \item{wrkwayup}{Irish, Italian, Jewish and other Should Overcome Prejudice Without Favors}
+  \item{wtss}{Weight Variable}
+  \item{wtssall}{Weight Variable (same as wtss)}
+  \item{xmarsex}{Sex With Person Other Than Spouse}
+  \item{year}{GSS Year For This Respondent}
+  \item{zodiac}{Respondent's Astrological Sign}
+}}
 \source{
-Sources vary.  See book Appendix for further information.
+2012 General Social Survey.  See Appendix Table A.1 of printed textbook for further information
 }
 \usage{
 gss

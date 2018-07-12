@@ -20,4 +20,9 @@ Takes in variable and finds median, works with sampling weights
 \details{
 Makes use of the wtd.quantile function, part of the Hmisc package
 }
+\examples{
+   library(poliscidata)
+   
+   wtd.median(nes$budget_deficit_x, nes$wt)
+}
 

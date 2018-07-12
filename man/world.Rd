@@ -3,10 +3,115 @@
 \docType{data}
 \name{world}
 \alias{world}
-\title{World dataset for R Companion to Essentials of Political Analysis}
-\format{A data frame with 167 rows and 103 variables.}
+\title{World dataset for R Companion to Essentials of Political Analysis, Second Edition}
+\format{A data frame with 167 rows and 103 variables.
+\describe{
+  \item{arda}{Country numerical code}
+  \item{colony}{Colony of what country? (CIA)}
+  \item{confidence}{Confidence in institutions scale (World Values Survey)}
+  \item{country}{Country/territory name (title case)}
+  \item{country1}{Country/territory name (title case), may be same as country}
+  \item{debt}{Public debt as a percentage of GDP (CIA)}
+  \item{decent08}{Democratic decentralization, 2008 (UN)}
+  \item{dem_economist}{Full or Part Democracy (Economist, 2014)}
+  \item{dem_level4}{Regime type (Economist 2014)}
+  \item{dem_other}{Percentage of other democracies in region}
+  \item{dem_other5}{Percentage of other democracies in region: 5 categories}
+  \item{dem_rank14}{Democracy rank, lower scores more democratic (Economist 2014)}
+  \item{dem_score14}{Democracy score, higher scores more democratic (Economist 2014)}
+  \item{democ}{Is government a democracy? (Based on regime_type3)}
+  \item{democ.yes}{Is government a democracy? Coded 0/100 (Based on regime_type3)}
+  \item{democ_regime}{Is regime a democracy? (1990)}
+  \item{democ_regime08}{Is government a democracy? (may be redundant)}
+  \item{democ11}{Democracy score, 2011 (UN)}
+  \item{district_size3}{Average # of members per district (World Values Survey)}
+  \item{dnpp_3}{Effective number of parliamentary parties}
+  \item{durable}{Number of years since the last regime transition (Polity)}
+  \item{effectiveness}{Government effectiveness scale (Kaufmann 2002)}
+  \item{enpp3_democ}{Effective number of parliamentary parties: 3 categories}
+  \item{enpp3_democ08}{Effective number of parliamentary parties (World Values Survey)}
+  \item{eu}{EU member state (yes/no)}
+  \item{fertility}{Total fertility rate: Number children born per woman (CIA)}
+  \item{fhrate04_rev}{Freedom House rating of democracy (reversed)}
+  \item{fhrate08_rev}{Freedom House 1-7 scale reversed, rescaled 0-12}
+  \item{frac_eth}{Ethnic factionalization (combined linguistic and racial) (Alesina et al 2003)}
+  \item{frac_eth2}{Ethnic factionalization (combined linguistic and racial) (Binned)}
+  \item{frac_eth3}{Level of ethnic fractionalization: 3 categories}
+  \item{free_business}{Heritage Foundation rating: bus. freedom (2010)}
+  \item{free_corrupt}{Heritage Foundation rating: corruption (2010)}
+  \item{free_finance}{Heritage Foundation rating: financial freedom (2010)}
+  \item{free_fiscal}{Heritage Foundation rating: fiscal freedom (2010)}
+  \item{free_govspend}{Heritage Foundation rating: government spending (2010)}
+  \item{free_invest}{Heritage Foundation rating: invest freedom (2010)}
+  \item{free_labor}{Heritage Foundation rating: labor freedom (2010)}
+  \item{free_monetary}{Heritage Foundation rating: monetary freedom (2010)}
+  \item{free_overall}{Heritage Foundation rating: overall economic freedom (2010)}
+  \item{free_overall_4}{4 quantiles of free_overall}
+  \item{free_property}{Heritage Foundation rating: property rights (2010)}
+  \item{free_trade}{Heritage Foundation rating: free trade (2010)}
+  \item{gdp_10_thou}{GDP per capita in 10K US$ (2002)}
+  \item{gdp_cap2}{GDP per capita (US$): 2 categories (2002)}
+  \item{gdp_cap3}{GDP per capita (US$): 3 categories (2002)}
+  \item{gdp08}{GDP in billions in 2008 (World Bank)}
+  \item{gdpcap08_2}{GDP per capita (US$) in 2008, 2 categories}
+  \item{gdpcap2_08}{GDP per capita (US$) in 2008, 2 categories (may be redundant)}
+  \item{gdpcap3_08}{GDP per capita (US$) in 2008 (Binned)}
+  \item{gdppcap08}{GDP per capita in 2008 (World Bank)}
+  \item{gdppcap08_3}{3 quantiles of gdppcap08 (as numeric)}
+  \item{gender_equal3}{Gender empowerment measure, 3 categories (World Values Survey)}
+  \item{gender_unequal}{Gender Inequality Index value, 2008 (UN)}
+  \item{gender_unequal_rank}{Gender Inequality Index rank, 2008 (UN)}
+  \item{gini04}{Gini coefficient (UN 2004)}
+  \item{gini08}{Gini coeff (UN 2008)}
+  \item{gini10}{Income Gini coefficient, 2000-2010 (UN)}
+  \item{govregrel}{Government regulation of religion index, 2008  (CIA)}
+  \item{hdi}{Human development index (HDI) value, 2010 (UN)}
+  \item{hi_gdp}{High GDP dummy}
+  \item{indy}{Year of independence (CIA)}
+  \item{ipu_wom13_all}{Percent Women in lower house of legislature, all countries, 2013 (Inter-Parliamentary Union)}
+  \item{lifeex_f}{Life expectancy at birth among females (CIA)}
+  \item{lifeex_m}{Life expectancy at birth among males (CIA)}
+  \item{lifeex_total}{Life expectancy at birth, total population (CIA)}
+  \item{literacy}{Literacy rate (CIA)}
+  \item{muslim}{Is Muslim predominate religious group?}
+  \item{natcode}{Name of country (lower case)}
+  \item{oecd}{OECD member state (yes/no)}
+  \item{oil}{Oil production, in barrels per day (CIA)}
+  \item{pmat12_3}{Post-materialism, 3 categories (World Values Survey)}
+  \item{polity}{Higher scores more democratic (Polity)}
+  \item{pop_0_14}{Percentage of population age 0-14 (CIA)}
+  \item{pop_15_64}{Percentage of population age 15-64 (CIA)}
+  \item{pop_65_older}{Percent of population age 65 and older (CIA)}
+  \item{pop_age}{Median age in years, 2010}
+  \item{pop_total}{Total population in millions, 2010 (UN)}
+  \item{pop_urban}{Percentage of the total population living in urban areas, 2010 (UN)}
+  \item{pr_sys}{Proportional representation system? (Institute for Democracy and Electoral Assistance)}
+  \item{protact3}{Protest activity (World Values Survey)}
+  \item{regime_type3}{Regime type (Cheibub's Democracy Dictatorship dataset)}
+  \item{regionun}{United Nations region}
+  \item{religoin}{Largest religion by proportion (UN)}
+  \item{rich_democ}{Rich democracy, interaction of Hi_gdp*democ_regime}
+  \item{sexratio}{Sex ratio at birth (male births per 100 female births), 2010}
+  \item{spendeduc}{Public expenditure on education as a percentage of GDP (UN)}
+  \item{spendhealth}{Public expenditure on health as a percentage of GDP (UN)}
+  \item{spendmil}{Public expenditure on the military as a percentage of GDP, 2008 (UN)}
+  \item{unions}{Union density (www.ilo.org)}
+  \item{unnetgro}{Percent growth in the number of Internet users, population based, 2000-2008 (UN)}
+  \item{unnetuse}{Internet users per 100 people, 2008 (UN)}
+  \item{unpovnpl}{Percentage of population below national poverty line, 2000-2008 (UN)}
+  \item{unremitp}{Per capita remittance inflows in US dollars, 2008}
+  \item{unremitt}{Remittance inflows as a percentage of GDP, 2008}
+  \item{vi_rel3}{Percent saying religion very important, 3 categories}
+  \item{votevap00s}{Turnout: most recent election in 2000s (Institute for Democracy and Electoral Assistance)}
+  \item{votevap90s}{Turnout: elections in 1990s (Institute for Democracy and Electoral Assistance)}
+  \item{women05}{Percent women in lower house of legislature, democracies only, 2005  (Inter-Parliamentary Union)}
+  \item{women09}{Percent women in lower house of legislature, democracies only, 2009 (Inter-Parliamentary Union)}
+  \item{women13}{Percent Women in lower house of legislature, democracies only, 2013 (Inter-Parliamentary Union)}
+  \item{womyear}{Year women first enfranchised (Inter-Parliamentary Union)}
+  \item{womyear2}{Women's suffrage (Inter-Parliamentary Union)}
+}}
 \source{
-Sources vary.  See book Appendix for further information.
+Sources vary.  See Appendix Table A.4 of printed textbook for further information.
 }
 \usage{
 world

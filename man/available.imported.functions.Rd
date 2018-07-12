@@ -122,8 +122,8 @@ See \code{\link[Hmisc]{spss.get}} documentation for details.
 The \code{\link[Hmisc]{stata.get}} function is imported from the Hmisc package.  
 See \code{\link[Hmisc]{stata.get}} documentation for details.
 
-The \code{\link[survey]{svyboxplot}} function is imported from the survey package.  
-See \code{\link[survey]{svyboxplot}} documentation for details.
+The svyboxplot function is imported from the survey package.  
+See \code{\link[survey]{svyhist}} documentation for details.
 
 The \code{\link[survey]{svyby}} function is imported from the survey package.  
 See \code{\link[survey]{svyby}} documentation for details.
@@ -137,8 +137,8 @@ See \code{\link[survey]{svydesign}} documentation for details.
 The \code{\link[survey]{svyglm}} function is imported from the survey package.  
 See \code{\link[survey]{svyglm}} documentation for details.
 
-The \code{\link[survey]{svymean}} function is imported from the survey package.  
-See \code{\link[survey]{svymean}} documentation for details.
+The svymean function is imported from the survey package.  
+See \code{\link[survey]{surveysummary}} documentation for details.
 
 The \code{\link[survey]{svyplot}} function is imported from the survey package.  
 See \code{\link[survey]{svyplot}} documentation for details.
@@ -158,16 +158,16 @@ See \code{\link[weights]{wtd.cor}} documentation for details.
 The \code{\link[weights]{wtd.hist}} function is imported from the weights package.  
 See \code{\link[weights]{wtd.hist}} documentation for details.
 
-The \code{\link[Hmisc]{wtd.mean}} function is imported from the Hmisc package.  
-See \code{\link[Hmisc]{wtd.mean}} documentation for details.
+The wtd.mean function is imported from the Hmisc package.  
+See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 
-The \code{\link[Hmisc]{wtd.quantile}} function is imported from the Hmisc package.  
-See \code{\link[Hmisc]{wtd.quantile}} documentation for details.
+The wtd.quantile function is imported from the Hmisc package.  
+See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 
 The \code{\link[weights]{wtd.t.test}} function is imported from the weights package.  
 See \code{\link[weights]{wtd.t.test}} documentation for details.
 
-The \code{\link[Hmisc]{wtd.var}} function is imported from the Hmisc package.  
-See \code{\link[Hmisc]{wtd.var}} documentation for details.
+The wtd.var function is imported from the Hmisc package.  
+See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 }
 

@@ -10,6 +10,6 @@ welcome()
 No value returned
 }
 \description{
-Welcomes users to Companion Package to Political Analysis and provides basic information about using Companion functions and datasets
+Welcomes users to Companion Package to Political Analysis and provides basic information about using Companion functions and datasets.
 }
 

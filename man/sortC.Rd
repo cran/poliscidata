@@ -7,18 +7,25 @@
 sortC(data, id, by, descending = TRUE)
 }
 \arguments{
-\item{data}{Dataset to be sorted}
+\item{data}{Dataset to be sorted.}
 
 \item{id}{A variable in the dataset (data) that identfies individual cases, typically the name of states, countries, etc.}
 
-\item{by}{Variable the dataset should be sorted by}
+\item{by}{Variable the dataset should be sorted by.}
 
-\item{descending}{Should the cases be sorted in descending order?  By default, set to TRUE}
+\item{descending}{Should the cases be sorted in descending order?  By default, set to TRUE.}
 }
 \value{
-A data frame
+A data frame of sorted observations.
 }
 \description{
-Returns case-level information in order
+Returns case-level information in order specified by user.
+}
+\examples{
+   library(poliscidata)
+   
+   sortC(data=states, id=state, by=abortlaw10)
+   
+   sortC(data=states, id=state, by=abortlaw10, descending=FALSE)
 }
 

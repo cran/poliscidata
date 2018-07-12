@@ -12,14 +12,15 @@ CI95(m, se)
 \item{se}{single number equal to the standard error of the statistic.}
 }
 \value{
-No return.
+Returns the 95% confidence interval as a vector of numeric values (the lower and upper bounds).
 }
 \description{
 Prints the lower and upper boundaries of a 95 Percent confidence interval.  Also see the CI95 function.
 }
 \examples{
  
-  CI99(10, 1)
-  CI99(m=8, se=2)
+  CI95(10, 1)
+  
+  CI95(m=8, se=2)
 }
 

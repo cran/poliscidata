@@ -1,8 +1,8 @@
-#' Calculates model fit statistic
+#' Calculates a statistic for measure of association in cross-tabulation
 #'
 #' @param x A matrix or data frame
-#' @return Returns a list
-#' @description This function is called by the tablesomersDC function
+#' @return Returns a list of statistics
+#' @description This function is called by \code{\link{tablesomersDC}} function.
 #'
 
 compADPQ = function(x)

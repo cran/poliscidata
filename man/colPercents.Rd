@@ -4,17 +4,17 @@
 \alias{colPercents}
 \title{Column Percentages}
 \usage{
-colPercents(tab, digits = 1)
+colPercents(tab, digits = 2)
 }
 \arguments{
 \item{tab}{A table of values}
 
-\item{digits}{Number of decimal places to display}
+\item{digits}{Number of decimal places to display, default is 2.}
 }
 \value{
 Table of column-percentaged values
 }
 \description{
-Column percentages, based on function by John Fox
+Generates column percentaged tables for multi-dimensional controlled cross-tabulations, based on function by John Fox. Used by \code{\link{xtabC}} function.
 }
 

@@ -4,19 +4,26 @@
 \alias{prop.testC}
 \title{Difference of Proportions Test}
 \usage{
-prop.testC(y, x, w = NULL)
+prop.testC(y, x, w = NULL, digits = 3)
 }
 \arguments{
-\item{y}{Dependent variable}
+\item{y}{Dependent variable, should be coded as 0 or 1.}
 
-\item{x}{Independent variable}
+\item{x}{Independent variable, should have only two unique values.}
 
-\item{w}{Weights, optional}
+\item{w}{Weights, optional.}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 3).}
 }
 \value{
 No return
 }
 \description{
-Difference of proportions test with optional weights
+Difference of proportions test with optional sample weights. Reports P-value of two-tailed significance test.
+}
+\examples{
+   library(poliscidata)
+   
+   prop.testC(nes$dem, nes$gender, w=nes$nesw)
 }
 

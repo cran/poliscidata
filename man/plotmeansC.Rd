@@ -4,26 +4,30 @@
 \alias{plotmeansC}
 \title{Plots mean comparison}
 \usage{
-plotmeansC(data, formula2 = NULL, formula3 = NULL, formula4, w = NULL,
-  ...)
+plotmeansC(data, function1 = NULL, function2 = NULL, function3, ...)
 }
 \arguments{
-\item{data}{A dataset}
+\item{data}{A design dataset (e.g. gssD, nesD, statesD, or worldD)}
 
-\item{formula2}{A formula}
+\item{function1}{A function in the form of ~ depvar}
 
-\item{formula3}{A formula}
+\item{function2}{A formula in the form of ~ indepvar}
 
-\item{formula4}{A formula}
+\item{function3}{A formula in the form of depvar ~ indepvar}
 
-\item{w}{Weights, optional}
-
-\item{...}{Additonal arguments passed to plotmeans function}
+\item{...}{Additonal arguments passed to gplots package's \code{\link[gplots]{plotmeans}} function}
 }
 \value{
 No return
 }
 \description{
-Plots mean comparison
+Plots the mean values of a dependent variable at different values of nominal or ordinal independent variable. Makes use of survey package's svy
+}
+\examples{
+   library(poliscidata)
+   
+   plotmeansC(nesD, ~ft_hclinton, ~pid_x, ft_hclinton~pid_x, 
+   xlab="Party Identification", ylab="Ratings of Hillary Clinton", 
+   main="Ratings of Hillary Clinton by Party Identification")
 }
 

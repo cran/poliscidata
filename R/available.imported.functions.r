@@ -62,8 +62,8 @@ spss.get <- function(...) { Hmisc::spss.get(...) }
 stata.get <- function(...) { Hmisc::stata.get(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[survey]{svyboxplot}} function is imported from the survey package.  
-##' See \code{\link[survey]{svyboxplot}} documentation for details.
+##' @description The svyboxplot function is imported from the survey package.  
+##' See \code{\link[survey]{svyhist}} documentation for details.
 svyboxplot <- function(...) { survey::svyboxplot(...) }
 
 ##' @rdname available.imported.functions
@@ -87,8 +87,8 @@ svydesign <- function(...) { survey::svydesign(...) }
 svyglm <- function(...) { survey::svyglm(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[survey]{svymean}} function is imported from the survey package.  
-##' See \code{\link[survey]{svymean}} documentation for details.
+##' @description The svymean function is imported from the survey package.  
+##' See \code{\link[survey]{surveysummary}} documentation for details.
 svymean <- function(...) { survey::svymean(...) }
 
 ##' @rdname available.imported.functions
@@ -122,13 +122,13 @@ wtd.cor <- function(...) { weights::wtd.cor(...) }
 wtd.hist <- function(...) { weights::wtd.hist(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[Hmisc]{wtd.mean}} function is imported from the Hmisc package.  
-##' See \code{\link[Hmisc]{wtd.mean}} documentation for details.
+##' @description The wtd.mean function is imported from the Hmisc package.  
+##' See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 wtd.mean <- function(...) { Hmisc::wtd.mean(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[Hmisc]{wtd.quantile}} function is imported from the Hmisc package.  
-##' See \code{\link[Hmisc]{wtd.quantile}} documentation for details.
+##' @description The wtd.quantile function is imported from the Hmisc package.  
+##' See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 wtd.quantile <- function(...) { Hmisc::wtd.quantile(...) }
 
 ##' @rdname available.imported.functions
@@ -137,6 +137,6 @@ wtd.quantile <- function(...) { Hmisc::wtd.quantile(...) }
 wtd.t.test <- function(...) { weights::wtd.t.test(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[Hmisc]{wtd.var}} function is imported from the Hmisc package.  
-##' See \code{\link[Hmisc]{wtd.var}} documentation for details.
+##' @description The wtd.var function is imported from the Hmisc package.  
+##' See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 wtd.var <- function(...) { Hmisc::wtd.var(...) }

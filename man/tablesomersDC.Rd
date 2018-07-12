@@ -15,6 +15,6 @@ tablesomersDC(x, dep = 2)
 No return
 }
 \description{
-This function is called by somersD function
+This function is called by \code{\link{somersD}} function.
 }
 

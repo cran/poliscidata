@@ -1,7 +1,9 @@
 #' Displays line types for R plots
 #'
 #' @return No value returned
-#' @description Displays line types for r plots
+#' @description Displays line types for R plots. No values supplied to function.
+#' @examples 
+#'   lineType()
 #' @export
 #'
 

@@ -4,19 +4,28 @@
 \alias{imeansC}
 \title{Controlled Mean Comparison Table}
 \usage{
-imeansC(function1 = NULL, function2 = NULL, data)
+imeansC(function1 = NULL, function2 = NULL, data, digits = 2)
 }
 \arguments{
-\item{function1}{A function}
+\item{function1}{A function identifying the dependent variable in the form ~ depvar}
 
-\item{function2}{A function}
+\item{function2}{A function specifying the independent and control variables in the form ~ indepvar + controlvar}
 
-\item{data}{Dataset}
+\item{data}{A design dataset (like gssD, nesD, statesD, or worldD)}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 2).}
 }
 \value{
-No value returned
+A controlled mean comparison table (an "ftable" class object)
 }
 \description{
-Produces a controlled mean comparison table
+Produces a controlled mean comparison table. Rows defined by values of independent variable and columns defines by values of the control variable.
+}
+\examples{
+   library(poliscidata)
+   
+   imeansC(function1 = ~ft_dem, function2 = ~gender + married, data=nesD)
+   
+   imeansC(~ft_dem, ~gender + married, nesD)
 }
 

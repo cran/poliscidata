@@ -13,6 +13,12 @@ printC(objx)
 No return
 }
 \description{
-Prints html-ready table to local working directory
+Prints html-ready table to local working directory. Makes use of xtable package's \code{\link[xtable]{print.xtable}} function.
+}
+\examples{
+   library(poliscidata)
+   
+   zodiac_table <- freq(x=gss$zodiac, w=gss$wtss, plot=FALSE)
+   printC(zodiac_table)
 }
 

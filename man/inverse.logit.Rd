@@ -7,12 +7,17 @@
 inverse.logit(logged_odds)
 }
 \arguments{
-\item{logged_odds}{a numeric value, or vector of numeric values}
+\item{logged_odds}{A numeric value, or vector of numeric values.}
 }
 \value{
-Returns predicted probability corresponding the the logged odds value
+Returns predicted probability corresponding the the logged odds value, a numeric value between 0 and 1.
 }
 \description{
-This function calculates predicted probability for a given logged odds value
+This function calculates predicted probability for a given logged odds value, often useful for plotting or reporting predicted probabilities.
+}
+\examples{
+   inverse.logit(0)
+   
+   inverse.logit(-5:5)
 }
 

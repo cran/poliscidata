@@ -3,16 +3,16 @@
 \docType{data}
 \name{worldD}
 \alias{worldD}
-\title{World design dataset for R Companion to Essentials of Political Analysis}
-\format{A survey.design object.  The variables element has 167 observations of 103 variables.}
+\title{World design dataset for R Companion to Essentials of Political Analysis, Second Edition}
+\format{A design dataset version of the world dataset used for certain weighted analyses.  The variables element has 167 observations of 103 variables.}
 \source{
-Sources vary.  See book Appendix for further information.
+Sources vary.  See Appendix Table A.4 of printed textbook for further information
 }
 \usage{
 worldD
 }
 \description{
-This is a design dataset with variables about countries in the world. This dataset is used to demonstrate application of R to political analysis. See book Appendix for variable names and descriptions.
+This is a design dataset with variables about countries in the world. This dataset is used to demonstrate application of R to political analysis. See \code{\link{world}} dataset documentation for variable names and descriptions.
 }
 \keyword{datasets}
 

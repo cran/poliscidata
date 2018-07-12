@@ -4,15 +4,17 @@
 \alias{slowConsolePrint}
 \title{Prints string to console slowly}
 \usage{
-slowConsolePrint(linetoprint)
+slowConsolePrint(linetoprint, slow = 0.05)
 }
 \arguments{
 \item{linetoprint}{Text to be printed to console}
+
+\item{slow}{Time, in milliseconds, to wait between characters printed to console (default is .05).}
 }
 \value{
 No value returned
 }
 \description{
-Prints string to console slowly to make text more readable to the user
+Prints string to console slowly to make text more readable to the user. Used by \code{\link{welcome}} function.
 }
 

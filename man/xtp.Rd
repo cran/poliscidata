@@ -2,13 +2,13 @@
 % Please edit documentation in R/xtp.r
 \name{xtp}
 \alias{xtp}
-\title{Cross tabulation}
+\title{Cross tabulation Analysis}
 \usage{
 xtp(data, y, x, w = NULL, ylab = NULL, xlab = NULL, main = NULL,
-  dnn = NULL)
+  digits = 2, chisq = FALSE)
 }
 \arguments{
-\item{data}{Dataset to be sorted}
+\item{data}{Dataset (like gss, nes, states, or world)}
 
 \item{y}{Dependent variable}
 
@@ -22,12 +22,19 @@ xtp(data, y, x, w = NULL, ylab = NULL, xlab = NULL, main = NULL,
 
 \item{main}{Main label for plot (optional)}
 
-\item{dnn}{Optional, the names to be given to the dimensions in the result (the dimnames names)}
+\item{digits}{Number of digits to report after decimal place, optional (default = 2)}
+
+\item{chisq}{Do you want Chi-Squared test reported? (default is FALSE)}
 }
 \value{
-A data frame
+A data frame of the cross tabulation results
 }
 \description{
-Makes use of the crosstab function in the descr package.
+Generates cross-tabulation of dependent and indendent variables, also creates a mosiac plot.  Makes use of the crosstab function in the descr package.
+}
+\examples{
+   library(poliscidata)
+   
+   xtp(gss, grass, attend3, wtss)
 }
 

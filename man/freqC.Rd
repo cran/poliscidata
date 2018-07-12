@@ -4,17 +4,26 @@
 \alias{freqC}
 \title{Generates table and figure describing distribution of variable values.}
 \usage{
-freqC(x, w)
+freqC(x, w, plot = TRUE)
 }
 \arguments{
-\item{x}{a vector of variable values}
+\item{x}{A vector of variable values, should be in form dataset$var}
 
-\item{w}{weights (optional)}
+\item{w}{Sample weights (optional), should be in form dataset$weighvar}
+
+\item{plot}{Do you want a bar chart? (default set to TRUE)}
 }
 \value{
-No value returned
+A frequency distribution table (a "freqtable" and "matrix" class object)
 }
 \description{
-Generates table and figure describing distribution of variable values. Based on freq() function in descr package.
+Generates frequency distribution table and bar chart to describe distribution of variable values. Based on \code{\link[descr]{freq}} function in descr package.
+}
+\examples{
+   library(poliscidata)
+   
+   freqC(gss$zodiac, gss$wtss)
+   
+   freqC(x=gss$zodiac, w=gss$wtss)
 }
 

@@ -3,10 +3,147 @@
 \docType{data}
 \name{states}
 \alias{states}
-\title{States dataset for R Companion to Essentials of Political Analysis}
-\format{A data frame with 50 rows and 135 variables.}
+\title{States dataset for R Companion to Essentials of Political Analysis, Second Edition}
+\format{A data frame with 50 rows and 135 variables.
+\describe{
+  \item{abort_rank3}{Abortion restrictions (3 category ranking)}
+  \item{abort_rate05}{Abortions per 1,000 women (2005)}
+  \item{abort_rate08}{Number of abortions per 1,000 women aged 15-44 (2008)}
+  \item{abortion_rank12}{2012 Abortion rank (Americans United for Life)}
+  \item{abortlaw10}{Number of restrictions on abortion (2010)}
+  \item{abortlaw3}{Abortion restrictions (three tiers of number of restrictions)}
+  \item{adv_or_more}{Percent of population with advanced degree or higher}
+  \item{alcohol}{Alcohol consumption in gallons per capita (2007)}
+  \item{attend_pct}{Percent frequently attend religious serviced (Pew)}
+  \item{ba_or_more}{Percent of population with college degree or higher}
+  \item{battle04}{Battleground state in 2004?}
+  \item{blkleg}{Percent of state legislators who are black}
+  \item{blkpct04}{Percent black (2004)}
+  \item{blkpct08}{Percent black (2008)}
+  \item{blkpct10}{Percent black (2010)}
+  \item{bush00}{Percent voting for Bush in 2000}
+  \item{bush04}{Percent voting for Bush in 2004}
+  \item{carfatal}{Motor vehicle fatalities (per 100,000 pop)}
+  \item{carfatal07}{Motor vehicle fatalities per 100,000 pop (2007)}
+  \item{cig_tax}{Cigarette tax per pack (2007)}
+  \item{cig_tax_3}{Cigarette tax per pack: 3 categories (2007)}
+  \item{cig_tax12}{Cigarette tax per pack (2012)}
+  \item{cig_tax12_3}{Cigarette tax per pack: 3 categories (2012)}
+  \item{cigarettes}{Packs smoked bimonthly per adult (2003)}
+  \item{college}{Percent of population with college or higher}
+  \item{conpct_m}{Percent mass public Conservative}
+  \item{cons_hr06}{Conservatism score, US House delegation (2006)}
+  \item{cons_hr09}{Conservatism score, US House delegation (2009)}
+  \item{conserv_advantage}{Conservative advantage, mass public (2012)}
+  \item{conserv_public}{Percent mass public conservative (2013)}
+  \item{cook_index}{Cook Index: Higher scores mean more Democratic}
+  \item{cook_index3}{3 quantiles of cook_index}
+  \item{defexpen}{Federal defense expenditures per capita}
+  \item{dem_advantage}{Democratic advantage, mass public (2012)}
+  \item{dem_hr09}{Percent US House delegation Democratic (2009)}
+  \item{demhr11}{Percent HR delegation Democratic (2011)}
+  \item{demnat06}{Percent US House and Senate Democratic (2006)}
+  \item{dempct_m}{Percent mass public Democratic}
+  \item{demstate06}{Percent of state legislators who are Democrats (2006)}
+  \item{demstate09}{Percent of state legislators who are Democrats (2009)}
+  \item{demstate13}{Percent state legislature Democrats (2013)}
+  \item{density}{Population density (2010)}
+  \item{division}{Census division (9 different regions of country)}
+  \item{earmarks_pcap}{Earmarks per capita (in dollars)}
+  \item{evm}{State electoral vote: McCain (2008)}
+  \item{evo}{State electoral vote: Obama (2008)}
+  \item{evo2012}{Obama's Electoral College vote}
+  \item{evr2012}{Romney's Electoral College vote}
+  \item{gay_policy}{Billman's policy scale (4 ordinal categories)}
+  \item{gay_policy_con}{Does state have 'most conservative' gay policies?}
+  \item{gay_policy2}{RECODE of gay_policy (Billman's policy scale)}
+  \item{gay_support}{Lax-Phillips opinion index}
+  \item{gay_support3}{Gay rights: public support (3 categories)}
+  \item{gb_win00}{Did Bush win electoral vote, 2000?}
+  \item{gb_win04}{Did Bush win electoral vote, 2004?}
+  \item{gore00}{Percent voting for Gore 2000}
+  \item{govt_worker}{Percentage workforce government workers (2012)}
+  \item{gun_check}{Background checks for gun purchases per 100,000 pop (2012)}
+  \item{gun_dealer}{Gun dealers per 100,000 pop}
+  \item{gun_murder10}{Gun murder rate (2010)}
+  \item{gun_rank_rev}{Recode of gun_rank11 so higher number ranks = more gun restrictions}
+  \item{gun_rank11}{Brady gun rank (2011)}
+  \item{gun_rank3}{Recode of gun_rank11 (3 ordinal categories)}
+  \item{gun_scale11}{Brady gun law scale (2011)}
+  \item{gunlaw_rank}{Brady campaign rank (2008)}
+  \item{gunlaw_rank3_rev}{Number of restrictions (2008)}
+  \item{gunlaw_scale}{Brady campaign score (2008)}
+  \item{hispanic04}{Percent Hispanic (2004)}
+  \item{hispanic08}{Percent Hispanic (2008)}
+  \item{hispanic10}{Percent Hispanic (2010)}
+  \item{hr_cons_rank11}{Conservativism ranking of House of Representatives delegation (2011, American Conservative Union)}
+  \item{hr_conserv11}{Conservativism rating of House of Representatives delegation (2011, American Conservative Union)}
+  \item{hr_lib_rank11}{Liberalism ranking of House of Representatives delegation (2011, Americans for Democratic Action)}
+  \item{hr_liberal11}{Liberalism rating of House of Representatives delegation (2011, Americans for Democratic Action)}
+  \item{hs_or_more}{Percent population high school education or higher}
+  \item{indpct_m}{Percent mass public Independent}
+  \item{kerry04}{Percent voting for Kerry 2004}
+  \item{libpct_m}{Percent mass public Liberal}
+  \item{mccain08}{Percent voting for McCain 2008}
+  \item{modpct_m}{Percent mass public Moderate}
+  \item{nader00}{Percent voting for Nader 2000}
+  \item{obama_win08}{Did Obama win electoral vote, 2008?}
+  \item{obama_win12}{Did Obama win the state in 2012?}
+  \item{obama08}{Percent voting for Obama 2008}
+  \item{obama2012}{Obama vote share in 2012}
+  \item{over64}{Percent population over age 64}
+  \item{permit}{Percent public that would always permit abortion (2004 NES)}
+  \item{pop_18_24}{Percent population aged 18-24 (2004)}
+  \item{pop_18_24_10}{Percent population aged 18-24 (2010)}
+  \item{pop2000}{State population, 2000}
+  \item{pop2010}{State population, 2010}
+  \item{pop2010_hun_thou}{State population, 2010 (in 100k)}
+  \item{popchng0010}{State population, 2000-2012}
+  \item{popchngpct}{State population percentage, 2000-2010}
+  \item{pot_policy}{Marijuana laws}
+  \item{prcapinc}{Per capita income}
+  \item{prochoice}{Percent public pro-choice}
+  \item{prolife}{Percent public pro-life}
+  \item{region}{Census region (4 categories)}
+  \item{relig_cath}{Percentage Catholic (2012)}
+  \item{relig_high}{Percentage high religiosity (2012)}
+  \item{relig_import}{Percent religion "A great deal of guidance"}
+  \item{relig_low}{Percentage low religiosity (2012)}
+  \item{relig_prot}{Percentage Protestant (2012)}
+  \item{religiosity}{Religious observance-belief scale (Pew)}
+  \item{religiosity3}{Religiosity (3 categories)}
+  \item{reppct_m}{Percent mass public Republican}
+  \item{romney2012}{Romney vote share in 2012}
+  \item{rtw}{Right to work state?}
+  \item{secularism}{Secularism scale (Pew)}
+  \item{secularism3}{3 quantiles of secularism}
+  \item{seniority_sen2}{Does state have influential US Senator?}
+  \item{smokers12}{Percentage of population who smoke}
+  \item{south}{Southern state?}
+  \item{state}{State name}
+  \item{stateid}{Two letter postal abbreviation for state name}
+  \item{to_0004}{Percentage point change in turnout from 2000 to 2004}
+  \item{to_0408}{Percentage point change in turnout from 2004 to 2008}
+  \item{to_0812}{Percentage point change in turnout from 2008 to 2012}
+  \item{trnout00}{Turnout in 2000 presidential election}
+  \item{trnout04}{Turnout in 2004 presidential election}
+  \item{unemploy}{Unemployment rate (2004)}
+  \item{uninsured_pct}{Percentage without health insurance (2012)}
+  \item{union04}{Percent workers who are union members (2004)}
+  \item{union07}{Percent workers who are union members (2007)}
+  \item{union10}{Percent workforce unionized (2010)}
+  \item{urban}{Percent urban population (2000)}
+  \item{vep00_turnout}{Percent turnout of voting eligible population in 2000}
+  \item{vep04_turnout}{Percent turnout of voting eligible population in 2004}
+  \item{vep08_turnout}{Percent turnout of voting eligible population in 2008}
+  \item{vep12_turnout}{Percent turnout of voting eligible population in 2012}
+  \item{womleg_2007}{Percent of state legislators who are women (2007)}
+  \item{womleg_2010}{Percent of state legislators who are women (2010)}
+  \item{womleg_2011}{Percent of state legislators who are women (2011)}
+  \item{womleg_2015}{Percent of state legislators who are women (2015)}
+}}
 \source{
-Sources vary.  See book Appendix for further information.
+Data sources vary.  See Appendix Table A.3 of printed textbook for further information.
 }
 \usage{
 states

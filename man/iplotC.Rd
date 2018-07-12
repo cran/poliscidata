@@ -15,12 +15,22 @@ iplotC(function1 = NULL, function2 = NULL, data, function3 = NULL, ...)
 
 \item{function3}{A function. Here indepvar is typed after controlvar: ~controlvar + indepvar}
 
-\item{...}{Further arguments to be passed to brkdn plot}
+\item{...}{Further arguments to be passed to \code{\link[plotrix]{brkdn.plot}} function (plotrix package)}
 }
 \value{
 No value returned
 }
 \description{
-Interaction plot based on brkdn.plot function in plotrix package
+Interaction plot uses \code{\link[plotrix]{brkdn.plot}} in plotrix package and \code{\link[survey]{svyby}} function from survey package. Warnings suppressed so the function creates plot without generating intermediate results used to create plot.
+}
+\examples{
+   library(poliscidata)
+   
+   iplotC(function1 = ~ ft_dem, function2 = ~ gender + married, 
+          data = nesD, function3 = ft_dem ~ married + gender)
+   
+   iplotC(~ft_dem, ~gender+married, nesD, ft_dem~married+gender,
+          xlab="Gender", ylab="Democratic Party Rating", 
+          main="Democratic Party Rating by Gender and Marital Status")
 }
 

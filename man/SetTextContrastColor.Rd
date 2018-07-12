@@ -13,6 +13,6 @@ SetTextContrastColor(color)
 Returns either "black" or "white"
 }
 \description{
-Sets contrasting color for text
+Sets color for text that effectively contrasts with the background color specified. Used by the \code{\link{Colors}} function.
 }
 

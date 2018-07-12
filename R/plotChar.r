@@ -1,7 +1,9 @@
 #' Displays plotting characters available in R
 #'
 #' @return No return
-#' @description Displays plotting characters available in R
+#' @description Displays plotting characters available in R. No values supplied to function.
+#' @examples 
+#'   plotChar()
 #' @export
 #'
 
@@ -36,11 +38,10 @@ plotChar = function()
       axes = FALSE,
       xlab = "",
       ylab = "",
-      main = paste( "plot symbols: points( ..., pch = *, cex =", Pex, ")" ) )
+      main = paste( "Plotting Characters in R" ) )
 
   ##  Draw horizontal and vertical dotted grid lines.
-
-  abline( v = ix, h = iy, col = "lightgray", lty = "dotted" )
+  ##  abline( v = ix, h = iy, col = "lightgray", lty = "dotted" )
 
   ##  Iterate through the points, drawing the specified pch (given by an
   ##  integer from 0 through 25 or by a character ('*' through '#').

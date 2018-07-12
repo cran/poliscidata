@@ -2,19 +2,26 @@
 % Please edit documentation in R/xtabC.r
 \name{xtabC}
 \alias{xtabC}
-\title{Cross tabulation with optional weights}
+\title{Controlled cross tabulation analysis with optional weights}
 \usage{
-xtabC(function1, data)
+xtabC(function1, data, digits = 2)
 }
 \arguments{
-\item{function1}{A function}
+\item{function1}{A function of the relationship to be analyzed expressed in the form ~ depvar + indepvar + controlvar}
 
-\item{data}{Dataset}
+\item{data}{A design dataset (e.g. gssD, nesD, statesD, worldD)}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 2).}
 }
 \value{
-No return
+A controlled cross tabulation as a multi-dimensional array.
 }
 \description{
-Cross tabulation with optional weights
+Controlled cross tabulation analysis with optional weights
+}
+\examples{
+   library(poliscidata)
+   
+   xtabC(~ divlaw2 + attend3 + kids, gssD)
 }
 

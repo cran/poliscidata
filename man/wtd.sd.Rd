@@ -7,17 +7,22 @@
 wtd.sd(x, weights = NULL)
 }
 \arguments{
-\item{x}{A variable (must be numeric)}
+\item{x}{A variable (must be numeric), should be in dataset$var form.}
 
-\item{weights}{Sampling weights of variable (optional)}
+\item{weights}{Sampling weights of variable (optional), should be in dataset$weightvar form.}
 }
 \value{
-Returns the standard deviation of the variable
+Returns the standard deviation of the variable, a numeric value.
 }
 \description{
-Takes in variable and calculates standard deviation, works with sampling weights
+Takes in variable and calculates standard deviation, works with sampling weights.
 }
 \details{
-Makes use of the freq function, part of the descr package
+Makes use of the freq function, part of the descr package.
+}
+\examples{
+   library(poliscidata)
+   
+   wtd.sd(nes$polknow_combined, nes$wt)
 }
 

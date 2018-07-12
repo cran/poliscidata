@@ -13,12 +13,12 @@ svybyC(formula1 = NULL, formula2 = NULL, data, ...)
 
 \item{data}{Dataset}
 
-\item{...}{Further arguments to be passed}
+\item{...}{Further arguments to be passed to svyby function.}
 }
 \value{
 A svyby-type object
 }
 \description{
-Computes summary statistics
+Computes statistics for controlled mean comparison table.  Used by \code{\link{imeansC}} function.
 }
 

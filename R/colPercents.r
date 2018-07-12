@@ -1,12 +1,12 @@
 #' Column Percentages
 #'
 #' @param tab A table of values
-#' @param digits Number of decimal places to display
+#' @param digits Number of decimal places to display, default is 2.
 #' @return Table of column-percentaged values
-#' @description Column percentages, based on function by John Fox
+#' @description Generates column percentaged tables for multi-dimensional controlled cross-tabulations, based on function by John Fox. Used by \code{\link{xtabC}} function.
 #' @importFrom abind abind
 
-colPercents=function (tab, digits = 1) 
+colPercents = function(tab, digits = 2) 
 {
   dim <- length(dim(tab))
   if (is.null(dimnames(tab))) {
@@ -18,9 +18,8 @@ colPercents=function (tab, digits = 1)
   dim(per) <- dim(tab)[c(2:dim, 1)]
   per <- aperm(per, c(dim, 1:(dim - 1)))
   dimnames(per) <- dimnames(tab)
-  per <- round(100 * per, digits)
-  result <- abind::abind(per, Total = apply(per, 2:dim, sum), Count = sums, 
-                  along = 1)
+  per <- 100 * per
+  result <- round(abind::abind(per, Total = base::apply(per, 2:dim, sum), Count = sums, along = 1), digits)
   names(dimnames(result)) <- names(dimnames(tab))
   result
 }

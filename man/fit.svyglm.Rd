@@ -2,17 +2,26 @@
 % Please edit documentation in R/fit.svyglm.r
 \name{fit.svyglm}
 \alias{fit.svyglm}
-\title{Calculates model fit statistic for a svyglm weighted regression model}
+\title{Calculates model fit statistics for a svyglm weighted regression model}
 \usage{
-fit.svyglm(svyglm)
+fit.svyglm(svyglm, digits = 3)
 }
 \arguments{
 \item{svyglm}{An object of type svyglm.  This object is the output of the svyglm functon.}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 3).}
 }
 \value{
-Returns classic model fit statistics, including R squared and Adjusted R Squared Statistic
+Returns a numeric vector of R-Squared and Adjusted R-sSquared statistics.
 }
 \description{
-model fit statistic for a svyglm weighted regression model
+Model fit statistics for a svyglm weighted regression model
+}
+\examples{
+   library(poliscidata)
+   
+   obamaThermModel <- svyglm(obama_therm ~ gender, design=nesD, na.action="na.omit")
+   summary(obamaThermModel)
+   fit.svyglm(obamaThermModel)
 }
 

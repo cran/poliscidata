@@ -10,6 +10,9 @@ plotChar()
 No return
 }
 \description{
-Displays plotting characters available in R
+Displays plotting characters available in R. No values supplied to function.
+}
+\examples{
+  plotChar()
 }
 

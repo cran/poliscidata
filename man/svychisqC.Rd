@@ -2,19 +2,24 @@
 % Please edit documentation in R/svychisqC.R
 \name{svychisqC}
 \alias{svychisqC}
-\title{Chi-Squared Test with Weighted Data}
+\title{Chi-Squared Statistic for Relationship Between Categorical Variables using Weighted Dataset}
 \usage{
 svychisqC(formula, design)
 }
 \arguments{
-\item{formula}{Formula expressing the relationship between variables}
+\item{formula}{Formula expressing the relationship between variables in the form ~ depvar + indepvar}
 
-\item{design}{Weighted design dataset}
+\item{design}{Weighted design dataset (like gssD, nesD, statesD, or worldD)}
 }
 \value{
 No return
 }
 \description{
-This function conducts a weighted chi-squared test
+This function reports chi-squared test statistic based on weighted dataset
+}
+\examples{
+   library(poliscidata)
+   
+   svychisqC(~ gay_rights3 + libcon3, nesD)
 }
 

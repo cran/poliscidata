@@ -4,19 +4,28 @@
 \alias{wtd.ttestC}
 \title{Weighted T-Test}
 \usage{
-wtd.ttestC(f1, f2, data)
+wtd.ttestC(f1, f2, data, digits = 3)
 }
 \arguments{
-\item{f1}{A variable}
+\item{f1}{Function identifying interval-level dependent variable in the form ~ depvar}
 
-\item{f2}{Another variable}
+\item{f2}{A function that defines groups to be compared in the form ~ indepvar}
 
-\item{data}{Dataset}
+\item{data}{A design dataset such as gssD, nesD, statesD, or worldD}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 3).}
 }
 \value{
 No return
 }
 \description{
 This function conducts a weighted t-test
+}
+\examples{
+   library(poliscidata)
+   
+   wtd.ttestC(f1 = ~ ftgr_gay, f2 = ~ gender, data = nesD)
+   
+   wtd.ttestC(~ ft_rep, ~ gender, nesD)
 }
 

@@ -5,6 +5,10 @@
 #' @param weights Sampling weights of variable (optional)
 #' @return Returns the modal value of the variable
 #' @description Takes in variable and finds mode, works with sampling weights
+#' @examples 
+#'    library(poliscidata)
+#'    
+#'    wtd.mode(gss$zodiac, gss$wtss)
 #' @export
 #' @importFrom descr freq
 
@@ -13,8 +17,8 @@ wtd.mode = function(x, weights=NULL)
   if (is.null(weights))  { result = data.frame(descr::freq(na.omit(x), plot=F)) }
   if (!is.null(weights)) 
     { 
-    weights = weights[!is.na(x)]
-    result = data.frame(descr::freq(na.omit(x), weights, plot=F)) 
+      weights = weights[!is.na(x)]
+      result  = data.frame(descr::freq(na.omit(x), weights, plot=F)) 
     }
   row.names(result)[which.max(result$Frequency[-length(result$Frequency)])]
 }

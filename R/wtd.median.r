@@ -5,6 +5,10 @@
 #' @param weights Sampling weights of variable (optional)
 #' @return Returns the median value of the variable
 #' @description Takes in variable and finds median, works with sampling weights
+#' @examples 
+#'    library(poliscidata)
+#'    
+#'    wtd.median(nes$budget_deficit_x, nes$wt)
 #' @export
 #' @importFrom Hmisc wtd.quantile
 

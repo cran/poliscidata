@@ -10,9 +10,9 @@ Colors()
 No value returned
 }
 \description{
-Produces plot of colors available in R. Numeric labels same for whole row.
+Produces plot of colors available in R. Colored cells labels with numeric value that corresponds to that color. No values supplied to function.
 }
 \examples{
-Colors()
+  Colors()
 }
 

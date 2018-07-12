@@ -7,14 +7,19 @@
 somersD(formula, data)
 }
 \arguments{
-\item{formula}{A formula}
+\item{formula}{A formula in the form ~ indepvar + depvar}
 
-\item{data}{Dataset to be sorted}
+\item{data}{A design dataset (e.g. gssD, nesD, statesD, or worldD)}
 }
 \value{
-No return
+Return Somer's D measure of association statistic, a number between 0 and 1.
 }
 \description{
-This function makes use of the svytable function from the survey package
+This function calculates the Somer's D measure of association statistic.  This function makes use of the svytable function from the survey package.
+}
+\examples{
+   library(poliscidata)
+   
+   somersD(~ dem_educ3 + envjob_3, nesD)
 }
 

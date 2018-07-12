@@ -20,4 +20,9 @@ Takes in variable and finds mode, works with sampling weights
 \details{
 Makes use of the freq function, part of the descr package
 }
+\examples{
+   library(poliscidata)
+   
+   wtd.mode(gss$zodiac, gss$wtss)
+}
 

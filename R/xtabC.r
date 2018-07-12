@@ -1,15 +1,22 @@
-#' Cross tabulation with optional weights
+#' Controlled cross tabulation analysis with optional weights
 #'
-#' @param function1 A function
-#' @param data Dataset
-#' @return No return
-#' @description Cross tabulation with optional weights
+#' @param function1 A function of the relationship to be analyzed expressed in the form ~ depvar + indepvar + controlvar
+#' @param data A design dataset (e.g. gssD, nesD, statesD, worldD)
+#' @param digits Number of digits to report after decimal place, optional (default = 2).
+#' @return A controlled cross tabulation as a multi-dimensional array.
+#' @description Controlled cross tabulation analysis with optional weights
+#' @examples 
+#'    library(poliscidata)
+#'    
+#'    xtabC(~ divlaw2 + attend3 + kids, gssD)
 #' @export
 #' @importFrom survey svytable
 
-xtabC = function(function1, data)
+xtabC = function(function1, data, digits=2)
   {
-    obj1 = survey::svytable(function1, design=data, round=T)
+    if(methods::is(data, "survey.design")!=TRUE) message(paste(sep="","Warning: Dataset \"", deparse(substitute(data)), "\" not a design dataset. Try gssD, nesD, statesD, or worldD instead."))
+    obj1 = survey::svytable(function1, design=data, round=F)
     # this might actually be in RcmdrMisc package
-    colPercents(obj1)
+    result = colPercents(obj1, digits)
+    return(result)
   }

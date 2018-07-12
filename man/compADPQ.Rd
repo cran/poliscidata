@@ -2,7 +2,7 @@
 % Please edit documentation in R/compADPQ.r
 \name{compADPQ}
 \alias{compADPQ}
-\title{Calculates model fit statistic}
+\title{Calculates a statistic for measure of association in cross-tabulation}
 \usage{
 compADPQ(x)
 }
@@ -10,9 +10,9 @@ compADPQ(x)
 \item{x}{A matrix or data frame}
 }
 \value{
-Returns a list
+Returns a list of statistics
 }
 \description{
-This function is called by the tablesomersDC function
+This function is called by \code{\link{tablesomersDC}} function.
 }
 

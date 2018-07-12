@@ -1,8 +1,8 @@
 #' Function to Introduce Users to R Companion Environment
 #'
 #' @return No value returned
-#' @description Welcomes users to Companion Package to Political Analysis and provides basic information about using Companion functions and datasets
-#'
+#' @description Welcomes users to Companion Package to Political Analysis and provides basic information about using Companion functions and datasets.
+#'    
 #' @importFrom car scatterplot
 #' @importFrom descr freq compmeans crosstab
 #' @importFrom ENmisc wtd.boxplot
@@ -51,19 +51,20 @@
 welcome = function()
   {
 
-quickConsolePrint("    __      __          _                                    \n")
-quickConsolePrint("    \\ \\    / / ___     | |     __      ___    _ __     ___   \n")
-quickConsolePrint("     \\ \\/\\/ / / -_)    | |    / _|    / _ \\  | '  \\   / -_)  \n")
-quickConsolePrint("      \\_/\\_/  \\___|   _|_|_   \\__|_   \\___/  |_|_|_|  \\___|  \n")
-quickConsolePrint("    _|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"| \n")
-quickConsolePrint("    \"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-' \n")
+  slowConsolePrint(slow=.006, "    __      __          _                                    \n")
+  slowConsolePrint(slow=.006, "    \\ \\    / / ___     | |     __      ___    _ __     ___   \n")
+  slowConsolePrint(slow=.006, "     \\ \\/\\/ / / -_)    | |    / _|    / _ \\  | '  \\   / -_)  \n")
+  slowConsolePrint(slow=.006, "      \\_/\\_/  \\___|   _|_|_   \\__|_   \\___/  |_|_|_|  \\___|  \n")
+  slowConsolePrint(slow=.006, "    _|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"| \n")
+  slowConsolePrint(slow=.006, "    H`-0-0-I\"`-0-0-K\"7-0-0-M\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-A \n")
 
  
     breaktime = .8 
-    quickConsolePrint("\n")
+    slowConsolePrint(slow=.006, "\n")
     Sys.sleep(breaktime)
     slowConsolePrint("  The poliscidata package bundles the datasets and functions featured in\n")
-    slowConsolePrint("  Pollock and Edwards' R Companion to Political Analysis, 2nd Ed.\n\n")
+    slowConsolePrint("  An R Companion to Political Analysis, 2nd Edition\n")
+    slowConsolePrint("  Written by Philip H. Pollock III and Barry C. Edwards\n\n")
     Sys.sleep(breaktime)
 
       slowConsolePrint(paste("  Your current working directory is:", getwd(),"\n"))

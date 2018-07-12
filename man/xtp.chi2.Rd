@@ -2,9 +2,9 @@
 % Please edit documentation in R/xtp.chi2.r
 \name{xtp.chi2}
 \alias{xtp.chi2}
-\title{Cross tabulation with chi-squared statistic}
+\title{Cross tabulation Analysis with Chi-Squared Statistic}
 \usage{
-xtp.chi2(data, y, x, w = NULL)
+xtp.chi2(data, y, x, w = NULL, digits = 1, prop.c = FALSE)
 }
 \arguments{
 \item{data}{Dataset to be sorted}
@@ -14,11 +14,20 @@ xtp.chi2(data, y, x, w = NULL)
 \item{x}{Independent variable}
 
 \item{w}{Weights (optional)}
+
+\item{digits}{Number of digits to report after decimal place, optional (default = 1).}
+
+\item{prop.c}{Do you want column percentages reported in table? (default is FALSE)}
 }
 \value{
-Returns a data frame
+Returns a data frame of cross tabulation results
 }
 \description{
 This function makes use of the crosstab function from the descr package
+}
+\examples{
+   library(poliscidata)
+   
+   xtp.chi2(gss, pornlaw, attend3, wtss)
 }
 
