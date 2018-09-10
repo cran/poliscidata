@@ -18,6 +18,9 @@ prop.testC = function(y, x, w=NULL, digits=3)
   {
   # oldw <- getOption("warn")
   # options(warn = -1)
+  if (is.null(w)) {
+    w <- rep(1, length(y))
+  }
   obj1 = descr::compmeans(y, x, w=w, plot=F)
   colnames(obj1) = c("Proportion","N","SD")
   se1 = obj1[1,3]/sqrt(obj1[1,2])

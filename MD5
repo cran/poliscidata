@@ -1,6 +1,6 @@
-5ae45a40102f9d0d6ffeebe124de3beb *DESCRIPTION
+aa6e42b9f9a08ee8352f64057af00155 *DESCRIPTION
 1ea9e6b574b3f523b30e4074ad5f392b *NAMESPACE
-cbff71710eb414e23e2a72840dd3f01e *NEWS.md
+d5fa5108e6a2f650b8c5dc28586e4d27 *NEWS.md
 0fec9ae5740d545f41415876f19f87ef *R/AdjR2.r
 deee36660968b7e82c6dbeeb18b5caa6 *R/CI95.r
 960fc4eb4dd7fd261e18b0a783137ffc *R/CI99.r
@@ -23,7 +23,7 @@ e38bbf363f4b63b4384e0d487b2e1de0 *R/pchisqC.r
 f9af22ba16bab6c2e39143845b041f79 *R/plotChar.r
 fd39898246ed62396f6c3df43096b5be *R/plotmeansC.r
 57f12b7169de6c2b81cb5a3e3de45300 *R/printC.r
-c9cb15389e5a99fd30c640472d7a8a54 *R/prop.testC.r
+513009a292e805f58b62bd56b39a49a4 *R/prop.testC.r
 b1b3a60e4943e285cfd15ee1ac255a41 *R/slowConsolePrint.r
 be2e841eb2d7461c976a91f4841824ce *R/somersD.r
 f36dcacab8052e3d60d5c14b87e0d152 *R/sortC.r
@@ -36,7 +36,7 @@ fdb5350bd18ed8c3309029dbb92da44d *R/welcome.r
 808f507962f7cb0ff372a67c93dff45a *R/wtd.sd.r
 77a391d98894a4b3ceed06b37c18bb41 *R/wtd.ttestC.R
 1fe55c22e2f4091282bd1c412918154d *R/xtabC.r
-bfd33f1b70b0c0f098954764f0b5f697 *R/xtp.chi2.r
+8440b22626865bd5b76eb3d0cf616563 *R/xtp.chi2.r
 bd0079c023493582a6398545e82ba533 *R/xtp.r
 537abae77d559a4fb91a318f1f487305 *data/datalist
 24c230cfeaa43dba0be480af2fbd3fd8 *data/gss.rda

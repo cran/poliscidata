@@ -24,7 +24,7 @@ xtp.chi2 = function(data, y, x, w=NULL, digits=1, prop.c=FALSE)
    xlab = deparse(substitute(x))
    ylab = deparse(substitute(y))
    xtp.chi2.obj1 <- descr::crosstab(data[,deparse(substitute(y))], data[,deparse(substitute(x))], 
-                                    weights=w, digits=digits, chisq=T, plot=F, prop.c=prop.c, expected=T, 
+                                    weight=w, digits=digits, chisq=T, plot=F, prop.c=prop.c, expected=T, 
                                     dnn=c(ylab, xlab))
    return(xtp.chi2.obj1)
 

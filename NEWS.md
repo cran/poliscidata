@@ -1,3 +1,19 @@
+poliscidata v2.2.2 (Release date: 2018-08-27)
+==============
+
+Minor Changes:
+
+* Fixed xtp.chi2 function to work properly with sample weights
+
+
+poliscidata v2.2.1 (Release date: 2018-08-27)
+==============
+
+Minor Changes:
+
+* Fixed prop.testC function to work if user does not specify weights
+
+
 poliscidata v2.2.0 (Release date: 2018-07-11)
 ==============
 
