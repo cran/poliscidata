@@ -4,16 +4,19 @@
 \alias{plotmeansC}
 \title{Plots mean comparison}
 \usage{
-plotmeansC(data, function1 = NULL, function2 = NULL, function3, ...)
+plotmeansC(data, function1 = NULL, function2 = NULL, function3, w = 1,
+  ...)
 }
 \arguments{
-\item{data}{A design dataset (e.g. gssD, nesD, statesD, or worldD)}
+\item{data}{A dataset (e.g. gss, nes, states, or world) or design dataset (e.g. gssD, nesD, statesD, or worldD)}
 
 \item{function1}{A function in the form of ~ depvar}
 
 \item{function2}{A formula in the form of ~ indepvar}
 
 \item{function3}{A formula in the form of depvar ~ indepvar}
+
+\item{w}{Weights, in the form ~ weightvar (optional, not needed if you use a design dataset)}
 
 \item{...}{Additonal arguments passed to gplots package's \code{\link[gplots]{plotmeans}} function}
 }
@@ -29,5 +32,11 @@ Plots the mean values of a dependent variable at different values of nominal or 
    plotmeansC(nesD, ~ft_hclinton, ~pid_x, ft_hclinton~pid_x, 
    xlab="Party Identification", ylab="Ratings of Hillary Clinton", 
    main="Ratings of Hillary Clinton by Party Identification")
+   
+   plotmeansC(nes,~envir,~pid_3,envir~pid_3,w=~wt,
+   xlab="Party Identification",
+   ylab="Percent Pro-Environment",
+   main="Percentage Favoring Environment over Jobs,\\n by Party ID")
+   
 }
 

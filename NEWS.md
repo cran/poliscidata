@@ -1,3 +1,11 @@
+poliscidata v2.2.3 (Release date: 2018-10-19)
+==============
+
+Minor Changes:
+
+* Fixed plotmeansC function to work properly with either data frame and sample weights (as shown in text), or design dataset
+
+
 poliscidata v2.2.2 (Release date: 2018-08-27)
 ==============
 

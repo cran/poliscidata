@@ -1,6 +1,6 @@
-aa6e42b9f9a08ee8352f64057af00155 *DESCRIPTION
+458f07d5fa44ceaeb3dd996099a09173 *DESCRIPTION
 1ea9e6b574b3f523b30e4074ad5f392b *NAMESPACE
-d5fa5108e6a2f650b8c5dc28586e4d27 *NEWS.md
+79e0c219506f4eb18486c76e1f570016 *NEWS.md
 0fec9ae5740d545f41415876f19f87ef *R/AdjR2.r
 deee36660968b7e82c6dbeeb18b5caa6 *R/CI95.r
 960fc4eb4dd7fd261e18b0a783137ffc *R/CI99.r
@@ -21,9 +21,10 @@ a0e862f44cacc0e1f566a13171728166 *R/logregR2.r
 a9e790c622b7edd30eb5e8ff9df04d4e *R/orci.r
 e38bbf363f4b63b4384e0d487b2e1de0 *R/pchisqC.r
 f9af22ba16bab6c2e39143845b041f79 *R/plotChar.r
-fd39898246ed62396f6c3df43096b5be *R/plotmeansC.r
+4e6bbe87c16a58affb836930c05c5b90 *R/plotmeansC.r
 57f12b7169de6c2b81cb5a3e3de45300 *R/printC.r
 513009a292e805f58b62bd56b39a49a4 *R/prop.testC.r
+629f2daac6a921618f8ba9c8d1ed1540 *R/quickConsolePrint.r
 b1b3a60e4943e285cfd15ee1ac255a41 *R/slowConsolePrint.r
 be2e841eb2d7461c976a91f4841824ce *R/somersD.r
 f36dcacab8052e3d60d5c14b87e0d152 *R/sortC.r
@@ -70,9 +71,10 @@ c8860593a4188cefab2b71a08c41a4a4 *man/iplotC.Rd
 6ec6f08f724e5cdf6d86b4a9f5e65b14 *man/orci.Rd
 5715d307bf67364772183c33a28e2d43 *man/pchisqC.Rd
 d8f7c4060c240f7b56972479f15b748d *man/plotChar.Rd
-515d876fccc2d99873feb2919ac947bd *man/plotmeansC.Rd
+45b744347a389a51f3404e0d5a123acf *man/plotmeansC.Rd
 6d30a80c6ef203044dc659edd46126de *man/printC.Rd
 0d2a3734447854ff23c31b177503544e *man/prop.testC.Rd
+2746eb9715e6b32e1fe54797a3a6304e *man/quickConsolePrint.Rd
 22aa9103e370a6b1fdc18675121eb763 *man/slowConsolePrint.Rd
 877aae5d8def7143c620a5281d2ea53d *man/somersD.Rd
 a5eaca9ab59192f4b590dcf08203e77f *man/sortC.Rd
