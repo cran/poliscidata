@@ -26,4 +26,3 @@ Difference of proportions test with optional sample weights. Reports P-value of 
    
    prop.testC(nes$dem, nes$gender, w=nes$nesw)
 }
-

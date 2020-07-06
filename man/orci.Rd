@@ -27,4 +27,3 @@ Generates odds-ratios based on logistic regression model coefficients
    summary(obama_vote_model)
    orci(obama_vote_model)
 }
-

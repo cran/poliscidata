@@ -17,4 +17,3 @@ No return
 \description{
 This function is called by \code{\link{somersD}} function.
 }
-

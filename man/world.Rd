@@ -4,7 +4,8 @@
 \name{world}
 \alias{world}
 \title{World dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A data frame with 167 rows and 103 variables.
+\format{
+A data frame with 167 rows and 103 variables.
 \describe{
   \item{arda}{Country numerical code}
   \item{colony}{Colony of what country? (CIA)}
@@ -109,7 +110,8 @@
   \item{women13}{Percent Women in lower house of legislature, democracies only, 2013 (Inter-Parliamentary Union)}
   \item{womyear}{Year women first enfranchised (Inter-Parliamentary Union)}
   \item{womyear2}{Women's suffrage (Inter-Parliamentary Union)}
-}}
+}
+}
 \source{
 Sources vary.  See Appendix Table A.4 of printed textbook for further information.
 }
@@ -120,4 +122,3 @@ world
 A dataset with variables about countries in the world. This dataset is used to demonstrate application of R to political analysis. See book Appendix for variable names and descriptions.
 }
 \keyword{datasets}
-

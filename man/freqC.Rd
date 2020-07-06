@@ -26,4 +26,3 @@ Generates frequency distribution table and bar chart to describe distribution of
    
    freqC(x=gss$zodiac, w=gss$wtss)
 }
-

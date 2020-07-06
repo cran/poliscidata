@@ -1,3 +1,11 @@
+poliscidata v2.3.0 (Release date: 2020-07-02)
+==============
+
+Minor Changes:
+
+* Retired wtd.boxplot function that was imported from ENmisc package. The ENmisc package has been archived and is no longer suppported.
+
+
 poliscidata v2.2.3 (Release date: 2018-10-19)
 ==============
 

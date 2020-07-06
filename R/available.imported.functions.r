@@ -97,14 +97,9 @@ svymean <- function(...) { survey::svymean(...) }
 svyplot <- function(...) { survey::svyplot(...) }
 
 ##' @rdname available.imported.functions
-##' @description The \code{\link[survey]{svytable}} function is imported from the survey package.  
-##' See \code{\link[survey]{svytable}} documentation for details.
+##' @description The svytable function is imported from the survey package.  
+##' See \code{\link[survey]{svychisq}} documentation for details.
 svytable <- function(...) { survey::svytable(...) }
-
-##' @rdname available.imported.functions
-##' @description The \code{\link[ENmisc]{wtd.boxplot}} function is imported from the ENmisc package.  
-##' See \code{\link[ENmisc]{wtd.boxplot}} documentation for details.
-wtd.boxplot <- function(...) { ENmisc::wtd.boxplot(...) }
 
 ##' @rdname available.imported.functions
 ##' @description The \code{\link[weights]{wtd.chi.sq}} function is imported from the weights package.  

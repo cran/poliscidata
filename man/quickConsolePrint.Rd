@@ -15,4 +15,3 @@ No value returned
 \description{
 Prints string to console quickly, but still scolls for visual effect
 }
-

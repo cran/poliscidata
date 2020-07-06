@@ -25,4 +25,3 @@ Makes use of the wtd.quantile function, part of the Hmisc package
    
    wtd.median(nes$budget_deficit_x, nes$wt)
 }
-

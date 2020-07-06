@@ -26,4 +26,3 @@ Calculates adjusted R-Squared statistic based on user-defined inputs.  This func
    
    AdjR2(tdf=200, null.dev=1500, resid.dev=1100, k=5)
 }
-

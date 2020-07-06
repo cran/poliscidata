@@ -22,4 +22,3 @@ This function reports chi-squared test statistic based on weighted dataset
    
    svychisqC(~ gay_rights3 + libcon3, nesD)
 }
-

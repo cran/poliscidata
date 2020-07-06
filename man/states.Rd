@@ -4,7 +4,8 @@
 \name{states}
 \alias{states}
 \title{States dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A data frame with 50 rows and 135 variables.
+\format{
+A data frame with 50 rows and 135 variables.
 \describe{
   \item{abort_rank3}{Abortion restrictions (3 category ranking)}
   \item{abort_rate05}{Abortions per 1,000 women (2005)}
@@ -141,7 +142,8 @@
   \item{womleg_2010}{Percent of state legislators who are women (2010)}
   \item{womleg_2011}{Percent of state legislators who are women (2011)}
   \item{womleg_2015}{Percent of state legislators who are women (2015)}
-}}
+}
+}
 \source{
 Data sources vary.  See Appendix Table A.3 of printed textbook for further information.
 }
@@ -152,4 +154,3 @@ states
 A dataset with variables about the 50 states. This dataset is used to demonstrate application of R to political analysis. See book Appendix for variable names and descriptions.
 }
 \keyword{datasets}
-

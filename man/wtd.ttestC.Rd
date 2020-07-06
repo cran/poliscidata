@@ -28,4 +28,3 @@ This function conducts a weighted t-test
    
    wtd.ttestC(~ ft_rep, ~ gender, nesD)
 }
-

@@ -27,4 +27,3 @@ Logistic regression model statistics
    summary(obama_vote_model)
    logregR2(obama_vote_model)
 }
-

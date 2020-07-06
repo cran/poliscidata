@@ -4,7 +4,9 @@
 \name{nesD}
 \alias{nesD}
 \title{NES design dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A design dataset version of the nes dataset used for certain weighted analyses.  The variables element has 5916 observations of 399 variables.}
+\format{
+A design dataset version of the nes dataset used for certain weighted analyses.  The variables element has 5916 observations of 399 variables.
+}
 \source{
 2012 American National Election Survey.  See Appendix Table A.2 of printed textbook for further information
 }
@@ -15,4 +17,3 @@ nesD
 The American National Election Survey polls individuals about their political beliefs and behavior. This design dataset is used to demonstrate application of certain R functions to political analysis. See \code{\link{nes}} dataset documentation for variable names and descriptions.
 }
 \keyword{datasets}
-

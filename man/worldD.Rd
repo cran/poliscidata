@@ -4,7 +4,9 @@
 \name{worldD}
 \alias{worldD}
 \title{World design dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A design dataset version of the world dataset used for certain weighted analyses.  The variables element has 167 observations of 103 variables.}
+\format{
+A design dataset version of the world dataset used for certain weighted analyses.  The variables element has 167 observations of 103 variables.
+}
 \source{
 Sources vary.  See Appendix Table A.4 of printed textbook for further information
 }
@@ -15,4 +17,3 @@ worldD
 This is a design dataset with variables about countries in the world. This dataset is used to demonstrate application of R to political analysis. See \code{\link{world}} dataset documentation for variable names and descriptions.
 }
 \keyword{datasets}
-

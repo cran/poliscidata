@@ -30,4 +30,3 @@ This function makes use of the crosstab function from the descr package
    
    xtp.chi2(gss, pornlaw, attend3, wtss)
 }
-

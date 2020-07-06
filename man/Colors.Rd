@@ -15,4 +15,3 @@ Produces plot of colors available in R. Colored cells labels with numeric value 
 \examples{
   Colors()
 }
-

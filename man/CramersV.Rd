@@ -27,4 +27,3 @@ Calculates Cramer's V, a measure of association to gauge the strength of the rel
   
   CramersV(chi=84.18, r=2, c=2, n=1315)
 }
-

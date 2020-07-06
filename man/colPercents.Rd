@@ -17,4 +17,3 @@ Table of column-percentaged values
 \description{
 Generates column percentaged tables for multi-dimensional controlled cross-tabulations, based on function by John Fox. Used by \code{\link{xtabC}} function.
 }
-

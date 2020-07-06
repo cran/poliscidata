@@ -5,7 +5,6 @@
 #'    
 #' @importFrom car scatterplot
 #' @importFrom descr freq compmeans crosstab
-#' @importFrom ENmisc wtd.boxplot
 #' @importFrom gplots plotmeans
 #' @importFrom Hmisc cut2 wtd.quantile wtd.var spss.get stata.get csv.get describe wtd.mean
 #' @importFrom plyr ddply

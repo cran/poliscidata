@@ -28,4 +28,3 @@ Comparing Logistic Regression Models with Chi-Squared Test
                                    design=nesD, family="quasibinomial")
    pchisqC(obama_vote_model_reduced, obama_vote_model_full)
 }
-

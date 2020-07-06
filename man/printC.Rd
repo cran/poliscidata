@@ -13,12 +13,5 @@ printC(objx)
 No return
 }
 \description{
-Prints html-ready table to local working directory. Makes use of xtable package's \code{\link[xtable]{print.xtable}} function.
+Prints html-ready table to local working directory. Makes use of xtable package's \code{\link[xtable]{print.xtable}} function. See pp. 22 of An R Companion to Political Analysis for example and more information.
 }
-\examples{
-   library(poliscidata)
-   
-   zodiac_table <- freq(x=gss$zodiac, w=gss$wtss, plot=FALSE)
-   printC(zodiac_table)
-}
-

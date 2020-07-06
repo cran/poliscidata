@@ -4,7 +4,8 @@
 \name{nes}
 \alias{nes}
 \title{NES dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A data frame with 5916 rows and 399 variables.
+\format{
+A data frame with 5916 rows and 399 variables.
 \describe{
   \item{abort_scale}{Anti-abortion Scale}
   \item{abort4}{Abortion Opinion: Self-Placement, 4 Categories}
@@ -405,7 +406,8 @@
   \item{wpres_gdbd_x}{How good/bad to have woman president in next 20 years?}
   \item{wt}{Sampling weight}
   \item{year}{ANES year}
-}}
+}
+}
 \source{
 2012 American National Election Survey.  See Appendix Table A.2 of printed textbook for further information
 }
@@ -416,4 +418,3 @@ nes
 The American National Election Survey polls individuals about their political beliefs and behavior. This dataset is used to demonstrate application of R to political analysis. See book Appendix for variable names and descriptions.
 }
 \keyword{datasets}
-

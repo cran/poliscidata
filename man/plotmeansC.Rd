@@ -4,8 +4,7 @@
 \alias{plotmeansC}
 \title{Plots mean comparison}
 \usage{
-plotmeansC(data, function1 = NULL, function2 = NULL, function3, w = 1,
-  ...)
+plotmeansC(data, function1 = NULL, function2 = NULL, function3, w = 1, ...)
 }
 \arguments{
 \item{data}{A dataset (e.g. gss, nes, states, or world) or design dataset (e.g. gssD, nesD, statesD, or worldD)}
@@ -36,7 +35,6 @@ Plots the mean values of a dependent variable at different values of nominal or 
    plotmeansC(nes,~envir,~pid_3,envir~pid_3,w=~wt,
    xlab="Party Identification",
    ylab="Percent Pro-Environment",
-   main="Percentage Favoring Environment over Jobs,\\n by Party ID")
+   main="Percentage Favoring Environment over Jobs,\n by Party ID")
    
 }
-

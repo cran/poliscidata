@@ -24,4 +24,3 @@ Model fit statistics for a svyglm weighted regression model
    summary(obamaThermModel)
    fit.svyglm(obamaThermModel)
 }
-

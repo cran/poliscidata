@@ -22,4 +22,3 @@ This function calculates the Somer's D measure of association statistic.  This f
    
    somersD(~ dem_educ3 + envjob_3, nesD)
 }
-

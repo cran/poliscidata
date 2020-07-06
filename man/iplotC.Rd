@@ -33,4 +33,3 @@ Interaction plot uses \code{\link[plotrix]{brkdn.plot}} in plotrix package and \
           xlab="Gender", ylab="Democratic Party Rating", 
           main="Democratic Party Rating by Gender and Marital Status")
 }
-

@@ -23,4 +23,3 @@ Prints the lower and upper boundaries of a 99 Percent confidence interval.  Also
   
   CI99(m=8, se=2)
 }
-

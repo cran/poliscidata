@@ -15,4 +15,3 @@ Displays line types for R plots. No values supplied to function.
 \examples{
   lineType()
 }
-

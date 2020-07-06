@@ -4,7 +4,8 @@
 \name{gss}
 \alias{gss}
 \title{GSS dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A data frame with 1974 rows and 221 variables.
+\format{
+A data frame with 1974 rows and 221 variables.
 \describe{
   \item{abany}{Abortion Permissible: Woman Wants For Any Reason}
   \item{abdefect}{Abortion Permissible: Strong Chance of Serious Defect}
@@ -227,7 +228,8 @@
   \item{xmarsex}{Sex With Person Other Than Spouse}
   \item{year}{GSS Year For This Respondent}
   \item{zodiac}{Respondent's Astrological Sign}
-}}
+}
+}
 \source{
 2012 General Social Survey.  See Appendix Table A.1 of printed textbook for further information
 }
@@ -238,4 +240,3 @@ gss
 The General Social Survey polls individuals about their attitudes and beliefs. This dataset is used to demonstrate application of R to political analysis. See book Appendix for variable names and descriptions.
 }
 \keyword{datasets}
-

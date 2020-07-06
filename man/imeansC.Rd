@@ -28,4 +28,3 @@ Produces a controlled mean comparison table. Rows defined by values of independe
    
    imeansC(~ft_dem, ~gender + married, nesD)
 }
-

@@ -25,4 +25,3 @@ Makes use of the freq function, part of the descr package.
    
    wtd.sd(nes$polknow_combined, nes$wt)
 }
-

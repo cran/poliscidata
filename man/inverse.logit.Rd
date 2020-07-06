@@ -20,4 +20,3 @@ This function calculates predicted probability for a given logged odds value, of
    
    inverse.logit(-5:5)
 }
-

@@ -21,7 +21,6 @@
 \alias{svymean}
 \alias{svyplot}
 \alias{svytable}
-\alias{wtd.boxplot}
 \alias{wtd.chi.sq}
 \alias{wtd.cor}
 \alias{wtd.hist}
@@ -68,8 +67,6 @@ svymean(...)
 svyplot(...)
 
 svytable(...)
-
-wtd.boxplot(...)
 
 wtd.chi.sq(...)
 
@@ -143,11 +140,8 @@ See \code{\link[survey]{surveysummary}} documentation for details.
 The \code{\link[survey]{svyplot}} function is imported from the survey package.  
 See \code{\link[survey]{svyplot}} documentation for details.
 
-The \code{\link[survey]{svytable}} function is imported from the survey package.  
-See \code{\link[survey]{svytable}} documentation for details.
-
-The \code{\link[ENmisc]{wtd.boxplot}} function is imported from the ENmisc package.  
-See \code{\link[ENmisc]{wtd.boxplot}} documentation for details.
+The svytable function is imported from the survey package.  
+See \code{\link[survey]{svychisq}} documentation for details.
 
 The \code{\link[weights]{wtd.chi.sq}} function is imported from the weights package.  
 See \code{\link[weights]{wtd.chi.sq}} documentation for details.
@@ -170,4 +164,3 @@ See \code{\link[weights]{wtd.t.test}} documentation for details.
 The wtd.var function is imported from the Hmisc package.  
 See \code{\link[Hmisc]{wtd.stats}} documentation for details.
 }
-

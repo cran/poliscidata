@@ -21,4 +21,3 @@ A svyby-type object
 \description{
 Computes statistics for controlled mean comparison table.  Used by \code{\link{imeansC}} function.
 }
-

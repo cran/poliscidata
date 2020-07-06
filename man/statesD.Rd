@@ -4,7 +4,9 @@
 \name{statesD}
 \alias{statesD}
 \title{States design dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A design dataset version of the states dataset used for certain weighted analyses.  The variables element has 50 observations of 135 variables.}
+\format{
+A design dataset version of the states dataset used for certain weighted analyses.  The variables element has 50 observations of 135 variables.
+}
 \source{
 Sources vary.  See Appendix Table A.3 of printed textbook for further information
 }
@@ -15,4 +17,3 @@ statesD
 This is a design dataset with variables about the 50 states. This design dataset is used to demonstrate application of certain R functions to political analysis. See \code{\link{states}} dataset documentation for variable names and descriptions.
 }
 \keyword{datasets}
-

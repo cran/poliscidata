@@ -4,7 +4,9 @@
 \name{gssD}
 \alias{gssD}
 \title{GSS design dataset for R Companion to Essentials of Political Analysis, Second Edition}
-\format{A design dataset version of the gss dataset used for certain weighted analyses.  The variables element has 1974 observations of 221 variables.}
+\format{
+A design dataset version of the gss dataset used for certain weighted analyses.  The variables element has 1974 observations of 221 variables.
+}
 \source{
 2012 General Social Survey.  See Appendix Table A.1 of printed textbook for further information
 }
@@ -15,4 +17,3 @@ gssD
 The General Social Survey polls individuals about their attitudes and beliefs. This design dataset is used to demonstrate application of certain R functions to political analysis. See \code{\link{gss}} dataset documentation for variable names and descriptions.
 }
 \keyword{datasets}
-

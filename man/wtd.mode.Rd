@@ -25,4 +25,3 @@ Makes use of the freq function, part of the descr package
    
    wtd.mode(gss$zodiac, gss$wtss)
 }
-

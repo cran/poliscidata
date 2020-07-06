@@ -17,4 +17,3 @@ No value returned
 \description{
 Prints string to console slowly to make text more readable to the user. Used by \code{\link{welcome}} function.
 }
-

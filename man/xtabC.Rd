@@ -24,4 +24,3 @@ Controlled cross tabulation analysis with optional weights
    
    xtabC(~ divlaw2 + attend3 + kids, gssD)
 }
-

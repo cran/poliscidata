@@ -15,4 +15,3 @@ Displays plotting characters available in R. No values supplied to function.
 \examples{
   plotChar()
 }
-

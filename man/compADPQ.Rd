@@ -15,4 +15,3 @@ Returns a list of statistics
 \description{
 This function is called by \code{\link{tablesomersDC}} function.
 }
-

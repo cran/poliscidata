@@ -4,8 +4,17 @@
 \alias{xtp}
 \title{Cross tabulation Analysis}
 \usage{
-xtp(data, y, x, w = NULL, ylab = NULL, xlab = NULL, main = NULL,
-  digits = 2, chisq = FALSE)
+xtp(
+  data,
+  y,
+  x,
+  w = NULL,
+  ylab = NULL,
+  xlab = NULL,
+  main = NULL,
+  digits = 2,
+  chisq = FALSE
+)
 }
 \arguments{
 \item{data}{Dataset (like gss, nes, states, or world)}
@@ -37,4 +46,3 @@ Generates cross-tabulation of dependent and indendent variables, also creates a 
    
    xtp(gss, grass, attend3, wtss)
 }
-

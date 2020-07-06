@@ -28,4 +28,3 @@ Returns case-level information in order specified by user.
    
    sortC(data=states, id=state, by=abortlaw10, descending=FALSE)
 }
-
